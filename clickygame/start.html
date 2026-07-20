@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Unwinnable</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="build-salt" content="s4lty_b01" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>Unwinnable</h1>
+    <p class="sub">Score <b>500</b> in <b>10</b> seconds. Easy, right?</p>
+
+    <div class="panel">
+      <div class="stat">
+        <div class="label">Time</div>
+        <div id="time" class="value">10.00</div>
+      </div>
+      <div class="stat">
+        <div class="label">Score</div>
+        <div id="score" class="value">0</div>
+      </div>
+      <div class="stat">
+        <div class="label">Target</div>
+        <div class="value">500</div>
+      </div>
+    </div>
+
+    <button id="btn" class="big">CLICK</button>
+
+    <div class="row">
+      <button id="startBtn">Start</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <div id="msg" class="msg">Tip: Keep your clicks consistent.</div>
+
+    <div class="flagbox">
+      <div class="label">Flag Output</div>
+      <pre id="flag">(locked)</pre>
+    </div>
+
+    <p class="tiny">
+      v1.0 • WhiteHacks 2026
+    </p>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
